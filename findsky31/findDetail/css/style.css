@@ -1,0 +1,158 @@
+body {
+	font-family: '苹方 常规';
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.head{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;;
+	background: #fff;
+	margin-top: 60px;
+}
+.head>img{
+	width: 20%;
+	border-radius: 50%;
+	
+}
+.head>img:before{
+	content: '+';
+	font-size:20px;
+	position:absolute;
+	bottom: 0px;
+}
+.head h2{
+	margin: 10px 0px;
+	font-size:1.5em;
+}
+.head h3{
+	color:#4CD964; 
+	font-weight: normal;
+	margin: 10px 0px;
+	font-size:1.2em;
+}
+nav{
+	position: relative;
+	line-height: 50px;
+	background-color: #3E8FDE;
+	color:#fff;
+	text-align: center;
+	font-size: 16px;
+	height: 50px;
+}
+.back{
+	position:absolute;
+	left:5%;
+	top: 30%;
+}
+nav>button{
+	color: #fff;
+	background-color:#5677FC ;
+	position:absolute;
+	bottom: 5px;
+	right: 5%;
+}
+section{
+	background-color: #fff;
+	position:relative;
+	box-shadow: border-box;
+	padding: 3%;
+	width: 100%;
+	border-top: 10px solid #fff5ff;
+}
+
+.head>button{
+	
+	margin-top: 30px;
+	border:1px solid #007AFF;
+	
+}
+.head>button:hover{
+	background: rgb(230,241,252);
+}
+.head a{
+	width: 100%;
+	color:#007AFF;
+}
+section ul{
+	padding-left: 3%;
+}
+section li{
+	float: left;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	overflow: hidden;
+	list-style-position: inside;
+	color:#000;
+	width:85%;
+	margin-right: 10px;
+}
+.markDetail{
+	
+	box-sizing: border-box;
+	padding-left:10% ;
+	padding-right: 10%;
+	width: 100%;
+}
+.markDetail h3{
+	font-size: 1.2em;
+}
+.markDetail img{
+	width: 50%;
+	
+	
+}
+#bigImg{
+	position: fixed;
+	width: 80%;
+	left: 10%;
+	top:0px;
+	bottom: 0px;
+	margin: auto;
+	z-index: 999; 
+}
+.markDetail>div{
+	margin-top: 20px;
+	width: 100%;
+}
+.markDetail>div>div{
+	color:#2AC845;
+	font-size:16px;
+	width: 45%;
+	overflow-y: scroll;
+	vertical-align: top;
+	display: inline-block;
+
+	
+}
+.markDetail p{
+	color:#000;
+	margin: 10px 0;
+}
+
+.markDetail h5{
+	color:#2AC845;
+	text-align: right;
+}
+#mark{
+	margin-top: 30px;
+	width: 26%;
+	color:#fff;
+	background-color: #3E8FDE;
+	margin-left: 37%;
+
+}
+.displaynone{
+	display: none;
+}
+.mui-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 998;
+    background-color: rgba(0,0,0,.66);
+}

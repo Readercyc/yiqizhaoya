@@ -1,0 +1,157 @@
+
+body {
+	font-family: '苹方 常规';
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.head{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;;
+	background: #fff;
+	margin-top: 60px;
+}
+.head>img{
+	width: 20%;
+	border-radius: 50%;
+	
+}
+.head>img:before{
+	content: '+';
+	font-size:20px;
+	position:absolute;
+	bottom: 0px;
+}
+.head h2{
+	margin: 10px 0px;
+	font-size:1.5em;
+}
+.head h3{
+	color:#4CD964; 
+	font-weight: normal;
+	margin: 10px 0px;
+	font-size:1.2em;
+}
+nav{
+	position: relative;
+	line-height: 50px;
+	background-color: #3E8FDE;
+	color:#fff;
+	text-align: center;
+	font-size: 16px;
+	height: 50px;
+}
+.back{
+	position:absolute;
+	left:5%;
+	top: 30%;
+}
+button{
+	line-height: 0px;
+	height: 30px;
+	width: 60px;
+	color: #5677FC;
+	background-color:#fff;
+	border-radius: 20px;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+button a{
+	color: #5677FC;
+	
+}
+#search{
+	height: 30px;
+	border: 0;
+	background-color: #f3f4f5;
+	box-sizing: border-box;
+	
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 5%;
+	width: 60%;
+	border-radius: 15px;
+}
+section{
+	background-color: #fff;
+	position:relative;
+	box-shadow: border-box;
+	padding: 3%;
+	width: 100%;
+	border-top: 10px solid #fff5ff;
+}
+
+.head>button{
+	
+	margin-top: 30px;
+	border:1px solid #007AFF;
+	
+}
+.head>button:hover{
+	background: rgb(230,241,252);
+}
+.head a{
+	width: 100%;
+	color:#007AFF;
+}
+section ul{
+	padding-left: 3%;
+}
+section li{
+	float: left;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	overflow: hidden;
+	list-style-position: inside;
+	color:#000;
+	width:85%;
+	margin-right: 10px;
+}
+.markDetail{
+	
+	box-sizing: border-box;
+	padding-left:5% ;
+	padding-right: 5%;
+	width: 100%;
+}
+.markDetail h3{
+	font-size: 1.2em;
+}
+.markDetail img{
+	float: left;
+	margin-top: 10px;
+	width: 35%;
+	height: 80px;
+	
+}
+.markDetail div{
+
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 80px;
+	width: 60%;
+	margin-left: 5%;
+	display: inline-block;
+	margin-top: 10px;
+	
+}
+.markDetail div span{
+	font-size: 0.85em;
+	display: inline-block;
+	height: 2.6em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	
+
+	
+}
+
+.markDetail p{
+	font-size: 0.85em;
+	color:#2AC845;
+	margin: 0;
+}
+

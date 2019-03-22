@@ -43,7 +43,7 @@ var loginForm = new Vue({
 						{
 							mui.alert("账号密码错误");
 						}
-						if(result.code == 3)
+						else if(result.code == 3)
 						{
 							mui.alert("学号或密码格式错误");
 						}

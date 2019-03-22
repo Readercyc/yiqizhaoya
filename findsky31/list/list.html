@@ -22,19 +22,18 @@
 		</div>
 		<div id="detail">
 			<section class="markDetail" v-for="item in detail" >
-				<a href="#">
-					<img v-bind:src="item.img" / >
-					<div @click="getId" v-bind:data-id = "item.id" v-bind:data-type="item.type">
-						<span v-bind:data-id = "item.id" v-bind:data-type="item.type">{{item.title}}</span>
-						<p v-bind:data-id = "item.id" v-bind:data-type="item.type"> 时间：{{item.date}}</p>
-						<p v-bind:data-id = "item.id" v-bind:data-type="item.type"> 发布者：{{item.nickname}}</p>
-					</div>
+		
+				<img v-bind:src="item.img" />
+				<div @click="getId" v-bind:data-id = "item.id" v-bind:data-type="item.type">
+					<span v-bind:data-id = "item.id" v-bind:data-type="item.type">{{item.title}}</span>
+					<p v-bind:data-id = "item.id" v-bind:data-type="item.type"> 时间：{{item.date}}</p>
+					<p v-bind:data-id = "item.id" v-bind:data-type="item.type"> 发布者：{{item.nickname}}</p>
+				</div>
 					
-				</a>
 			</section>
 		</div>
 	</body>
 	<script type="text/javascript" src="../js/checkStage.js"></script>
-<script type="text/javascript" src="../js/vue.js"></script>
+	<script type="text/javascript" src="../js/vue.js"></script>
     <script type="text/javascript" src="./js/list.js"></script>
 </html>

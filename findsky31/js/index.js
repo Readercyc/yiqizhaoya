@@ -145,7 +145,6 @@ function checkStage(){
 
 }
 window.onload = function(){
-      checkStage();
 	checkStage();
 	search();
 	var ajax = new XMLHttpRequest();
